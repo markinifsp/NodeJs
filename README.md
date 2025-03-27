@@ -1,35 +1,41 @@
-🏦 Conversor de Moedas
-Um simples conversor de moedas utilizando a API ExchangeRate-API e Node.js.
+# Conversor de Moedas
 
-📌 Funcionalidades
-✅ Conversão de moedas em tempo real usando a API.
-✅ Cache de taxas de câmbio para otimizar requisições.
-✅ Suporte para múltiplas conversões seguidas.
+Este é um simples conversor de moedas que utiliza a API ExchangeRate-API para obter as taxas de câmbio em tempo real. O projeto conta com uma interface web desenvolvida com HTML, CSS e JavaScript.
 
-🚀 Como Instalar e Executar
-1️⃣ Clonar o Repositório
-sh
-Copiar
-Editar
-git clone https://github.com/seu-usuario/conversor-moedas.git
-cd conversor-moedas
-2️⃣ Instalar as Dependências
-sh
-Copiar
-Editar
-npm install
+## Tecnologias Utilizadas
+- HTML
+- CSS
+- JavaScript
+- Axios (para requisições HTTP)
 
-3️⃣ Executar o Conversor
-sh
-Copiar
-Editar
-node index.js
-🛠 Tecnologias Utilizadas
-Node.js
+## Como Usar
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/seu-repositorio.git
+   ```
+2. Acesse a pasta do projeto:
+   ```bash
+   cd seu-repositorio
+   ```
+3. Abra o arquivo `index.html` no navegador.
+4. Insira a moeda de origem, a moeda de destino e o valor a ser convertido.
+5. Clique no botão "Converter" para obter o resultado.
 
-Axios (para requisições HTTP)
+## Estrutura do Projeto
+```
+/conversor-moedas
+│── index.html      # Estrutura da interface
+│── style.css       # Estilos do projeto
+│── converter.js    # Lógica de conversão
+│── README.md       # Informações do projeto
+```
 
-readline-sync (para entrada de dados no terminal)
+## Exemplo de Uso
+Digite "USD" como moeda de origem, "BRL" como moeda de destino e um valor como "100". O conversor retornará a quantia equivalente em reais.
 
+## Autor
+Desenvolvido por **Markin** 😊
 
-Este projeto é de código aberto e pode ser usado livremente. 🚀
+---
+_"Obrigado por utilizar o conversor de moedas! Feito pelo Markin :)"_
+
